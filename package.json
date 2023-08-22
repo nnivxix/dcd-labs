@@ -1,0 +1,24 @@
+{
+  "name": "math-api",
+  "version": "1.0.0",
+  "description": "Math API",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nnivxix/dcd-labs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nnivxix/dcd-labs/issues"
+  },
+  "homepage": "https://github.com/nnivxix/dcd-labs#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.3",
+    "jest": "^29.6.2"
+  }
+}
