@@ -13,7 +13,14 @@ const MathBasic = {
     return first + second;
   },
   subtract: function subtract() {},
-  multiply: function multiply() {},
+  multiply(...args) {
+    const [first, second] = args;
+
+    if (typeof first !== "number" || typeof second !== "number") {
+      throw new Error("fungsi hanya menerima parameter number");
+    }
+    return first * second;
+  },
   divide: function divide() {},
 };
 
