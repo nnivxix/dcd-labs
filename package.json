@@ -4,6 +4,7 @@
   "description": "Math API",
   "main": "index.js",
   "scripts": {
+    "serve": "node src/app.js",
     "test": "jest --watchAll"
   },
   "repository": {
