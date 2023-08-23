@@ -12,8 +12,8 @@ class Engine {
 }
 
 class Car {
-  constructor() {
-    this.engine = new Engine();
+  constructor(engine) {
+    this.engine = engine;
   }
 
   start() {
@@ -29,6 +29,7 @@ class Car {
   }
 }
 
-const car = new Car();
+const engine = new Engine();
+const car = new Car(engine);
 car.stop();
 car.start();
