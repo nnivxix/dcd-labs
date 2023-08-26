@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "node src/app.js",
-    "start:dev": "nodemon src/app.js",
+    "serve": "nodemon src/app.js",
     "test": "jest --setupFiles dotenv/config",
     "test:watch": "jest --watchAll --coverage --setupFiles dotenv/config",
     "migrate": "node-pg-migrate",
